@@ -1,14 +1,15 @@
 "use client";
 import React from "react";
-import Link from "next/link";
+import Hero from "@/components/Hero";
+import InforBoxes from "@/components/InforBoxes";
+import HomeProperties from "@/components/HomeProperties";
 
 const HomePage = () => {
-  console.log("Hello");
-
   return (
     <div>
-      <h1 className='text-3xl'>Welcome</h1>
-      <Link href={"/properties"}>Go Properties</Link>
+      <Hero />
+      <InforBoxes />
+      <HomeProperties />
     </div>
   );
 };
