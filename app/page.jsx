@@ -1,7 +1,16 @@
+"use client";
 import React from "react";
+import Link from "next/link";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  console.log("Hello");
+
+  return (
+    <div>
+      <h1 className='text-3xl'>Welcome</h1>
+      <Link href={"/properties"}>Go Properties</Link>
+    </div>
+  );
 };
 
 export default HomePage;
