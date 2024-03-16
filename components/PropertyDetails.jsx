@@ -86,11 +86,6 @@ const PropertyDetails = ({ property }) => {
           </p>
         </div>
         <p className='text-gray-500 mb-4 text-center'>{property.description}</p>
-        <p className='text-gray-500 mb-4'>
-          We have a beautiful apartment located near the commons. It is a 2
-          bedroom apartment with a full kitchen and bathroom. It is available
-          htmlFor weekly or monthly rentals.
-        </p>
       </div>
 
       <div className='bg-white p-6 rounded-lg shadow-md mt-6'>
